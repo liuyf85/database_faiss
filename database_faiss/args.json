@@ -1,0 +1,16 @@
+{
+    "use_gpu": false,
+    "dstore_mmap": "dstore",
+    "dstore_size": 100000,
+    "dimension": 1024,
+    "dstore_fp16": false,
+    "seed": 3407,
+    "ncentroids": 128,
+    "code_size": 64,
+    "probe": 8,
+    "faiss_index": "database",
+    "num_keys_to_add_at_a_time": 1000000,
+    "starting_point": 0,
+    "dist": "ip",
+    "k": 10
+}
